@@ -51,7 +51,7 @@ Installation of Android Studio
     
 ## Screenshots
 
-![App Screenshot](https://drive.google.com/uc?id=1rXPBcqlS3CYPxzBWenuWbY8eotEfZvBH)
+![App Screenshot](https://drive.google.com/uc?id=1NsJFrg3g46S0eiqrSmfotjYTwPzht4ng)
 
 
 ![App Screenshot](https://drive.google.com/uc?id=1d32DD11Vv5TfmLsHR3N0CAkyETzBEX9u)
