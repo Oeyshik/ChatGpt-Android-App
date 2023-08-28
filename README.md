@@ -1,8 +1,8 @@
 ![Logo](https://drive.google.com/uc?id=16kSn_U1snzH94P8y2_ZCDf2bxJaDLlhh)
 
-# ChatGpt - Android App
+# ChatGPT - Android App
 
-ChatGpt Android App is a project developed for the "Code for Life: Hackathon for everyday solutions" organized by VIT University. This innovative app utilizes the power of the OpenAI GPT-3.5 model to provide natural language conversation capabilities. The app enables users to have interactive and dynamic conversations with an AI chatbot, offering a wide range of practical applications.
+ChatGPT Android App is a project developed for the "Code for Life: Hackathon for everyday solutions" organized by VIT University. This innovative app utilizes the power of the OpenAI GPT-3.5 model to provide natural language conversation capabilities. The app enables users to have interactive and dynamic conversations with an AI chatbot, offering a wide range of practical applications.
 
 
 ## Authors
@@ -38,9 +38,40 @@ Kotlin
 - Explore the various use cases and functionalities of the app.
 
 
-## Installation
+## Using the ChatGPT API
 
-Installation of Android Studio
+1) Prerequisites
+- An OpenAI account
+- Access to the GPT-3 API (You may need to join a waitlist or have API access granted)
+
+2) Installation
+- Install the OpenAI Python library using pip:
+  ```bash
+  pip install openai
+  ```
+- Import the library into your Python script:
+  ```bash
+  import openai
+  ```
+- Set your OpenAI API key as an environment variable:
+  ```bash
+  export OPENAI_API_KEY=your-api-key
+  ```
+- Making API Requests
+  ```bash
+  import openai
+  
+  openai.api_key = "your-api-key"
+  
+  response = openai.Completion.create(
+  engine="text-davinci-003",  # Use the appropriate engine
+  prompt="Translate the following English text to French: 'Hello, how are you?'",
+  max_tokens=50)
+  
+  print(response.choices[0].text.strip())
+  ```
+
+3) Installation of Android Studio
 
 ```bash
   https://developer.android.com/studio
@@ -54,19 +85,19 @@ Installation of Android Studio
 ![App Screenshot](https://drive.google.com/uc?id=1NsJFrg3g46S0eiqrSmfotjYTwPzht4ng)
 
 
-![App Screenshot](https://drive.google.com/uc?id=1d32DD11Vv5TfmLsHR3N0CAkyETzBEX9u)
+![App Screenshot](https://drive.google.com/uc?id=1f7ImTAGbyEpr-4DadH_iW6uCY_1moSrB)
 
 
-![App Screenshot](https://drive.google.com/uc?id=12b0rUgT2WN3ksSdTjgFpunIT3xAgZ77T)
+![App Screenshot](https://drive.google.com/uc?id=1yPZIvtX0or3V4vD0NiIf4tnfsuMYMlnC)
 
 
-![App Screenshot](https://drive.google.com/uc?id=1flz865IaoRAPybpJ1P86wg11M85wHsGs)
+![App Screenshot](https://drive.google.com/uc?id=1skVOupg3CwVWPbT3EzLHEdR3Wn8Kw1ZX)
 
 
-![App Screenshot](https://drive.google.com/uc?id=1aAvL0z24qnEU6j02j9BSJJMAk-VdtZ_3)
+![App Screenshot](https://drive.google.com/uc?id=1_S5HK_7Cm-NAMh_hG2tL8-t7WJdsyhBa)
 
 
-![App Screenshot](https://drive.google.com/uc?id=1y5YugdMKH4Hek4F_Juv0BrP3X9_Zdceg)
+![App Screenshot](https://drive.google.com/uc?id=1jDYiLrISQlnmdbsdCW-cmtx3EdjzCH_6)
 
 
 
